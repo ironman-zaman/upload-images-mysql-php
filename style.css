@@ -1,0 +1,17 @@
+.container{
+max-width: 400px;
+}
+.profile{
+display: flex;
+align-items: center;
+border:1px solid rgba(0,0,0,.1);
+padding:15px;
+gap:30px;
+}
+
+.profile img{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
